@@ -1,0 +1,282 @@
+Body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #17c169, #084a87);
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  background: url(/Images/ivan-bandura-xsaz9mq61xy-unsplash-8.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.Title {
+  font-size: 30px;
+  bottom: 150px;
+  left: 805px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.NavBar {
+  width: var(--menu-width);
+  display: flex;
+  transform-style: preserve-3d;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 2;
+  margin: 0px auto;
+  perspective: 2000px;
+  flex-wrap: wrap;
+  top: 2em;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+
+
+.dropbtn {
+  color: #ffffff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-size: 20px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.homebutton {
+  color: #ffffff;
+}
+
+.contactbutton {
+  color: #ffffff;
+}
+
+.signin-btn {
+  color: #ffffff;
+}
+
+.icon {
+  color: #ffffff;
+}
+
+.searchbar {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.searchbox {
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.23);
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.Description {
+  color: white;
+  margin: 20px;
+  padding: 40px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 120px;
+  word-wrap: break-word;
+  text-shadow: 1px 1px;
+  background-color: rgba(0, 0, 0, 0.43);
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 5px 15px;
+}
+
+/* .Products {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  width: 100%;
+  height: 400px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+} */
+
+
+.Image2 {
+  height: 50%;
+  width: 50%;
+}
+
+.Box1 {
+  width: 250px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.image1 {
+  height: 80%;
+  width: 100%;
+  border: solid black 2px;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.LinkBox {
+  height: 20%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid black 2px;
+}
+
+.BoxIndex {
+  width: 80%;
+  height: 50%;
+  top: 100px;
+  margin: auto;
+  position: relative;
+
+}
+
+.VideoIndex {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.Checkoutbox:hover {
+  background-color: rgb(120, 120, 120);
+}
+
+.Link {
+  color: white;
+  font-size: 20px;
+}
+
+.Box2 {
+  position: relative;
+  top: 250px;
+  width: 300px;
+  height: 350px;
+  left: 50px;
+  top: 250px
+}
+
+
+
+.VegContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  height: 29%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.VegContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  height: 30%;
+
+}
+
+.VegPriceName {
+  background-color: rgba(0, 0, 0, 0.53);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  border: solid black 3px;
+}
+
+
+
+.Checkoutbox {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+
+}
+
+.inputText {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.53);
+  color: white;
+  border: none;
+}
